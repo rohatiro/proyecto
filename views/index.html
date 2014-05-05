@@ -4,14 +4,21 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="/stylesheet.css">
 </head>
 <body>
-	<header>
+	<header id="cabeza">
 		<h1>Bienvenido</h1>
 	</header>
-	<section>
+	<section id="cuerpo">
 		<article>
 			Esta es la pagina principal
+		</article>
+		<article>
+			<form action="/parse" method="post">
+				<input type="text" name="nombre" placeholder="Escribe tu nombre" />
+				<input type="submit" value="Enviar" />
+			</form>
 		</article>
 	</section>
 </body>
